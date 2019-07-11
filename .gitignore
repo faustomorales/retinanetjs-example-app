@@ -8,8 +8,11 @@
 # testing
 /coverage
 
-# production
-/build
+# public files that get copied at build
+/public/*
+!/public/*.jpg
+!/public/*.manifest.json
+!/public/*.ico
 
 # misc
 .DS_Store
