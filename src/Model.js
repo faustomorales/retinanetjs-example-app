@@ -21,7 +21,15 @@ export class Model extends Component {
 
     async detect() {
         this.setState({ predicting: true })
+        let t0
+        if (process.env.NODE_ENV === 'development') {
+            t0 = performance.now();
+        }
         const detections = await this.state.detector.detect(this.props.imageRef.current, 0.3)
+        if (process.env.NODE_ENV === 'development') {
+            var t1 = performance.now();
+            console.log("Prediction took " + (t1 - t0) + " milliseconds.")
+        }
         this.setState({ predicting: false })
         this.props.predictionCallback(detections)
     }

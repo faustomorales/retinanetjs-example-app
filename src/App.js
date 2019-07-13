@@ -18,7 +18,6 @@ export class App extends Component {
   handlePredictions(index, anns) {
     let annotationGroups = this.state.annotationGroups
     annotationGroups[index] = anns
-    console.log(annotationGroups)
     this.setState({ annotationGroups })
   }
 

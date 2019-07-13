@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "970ea88db4e6daabfcd977c89959841d",
+    "revision": "8e302ddfaddb6ed505743ad160a7e8b0",
     "url": "/retinanetjs-example-app/index.html"
   },
   {
-    "revision": "98f8ae713cc772464c77",
+    "revision": "1350e4741e864acfbee6",
     "url": "/retinanetjs-example-app/static/css/main.5863790c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/retinanetjs-example-app/static/js/2.7c90468e.chunk.js"
   },
   {
-    "revision": "98f8ae713cc772464c77",
-    "url": "/retinanetjs-example-app/static/js/main.bd0caa0e.chunk.js"
+    "revision": "1350e4741e864acfbee6",
+    "url": "/retinanetjs-example-app/static/js/main.87f5796f.chunk.js"
   },
   {
     "revision": "7dcceb14c0ef990927e8",

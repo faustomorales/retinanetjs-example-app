@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && rm -rf build/mobilenet224_1_0_oxfordcatdog && rm -rf build/resnet50_coco_best_v2.1.0 && rm -rf build/resnet150_purify",
+    "build": "react-scripts build && rm -rf build/mobilenet224_1_0_oxfordcatdog && rm -rf build/resnet50_coco_best_v2.1.0 && rm -rf build/resnet101_purify",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"

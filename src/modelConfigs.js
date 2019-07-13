@@ -103,7 +103,7 @@ export const modelConfigs = [
   {
     'displayName': 'Purify',
     'backboneName': 'resnet101',
-    'modelUrl': process.env.NODE_ENV === 'development' ? 'resnet150_purify/model.json' : 'https://storage.googleapis.com/retinanetjs/models/resnet150_purify/model.json',
+    'modelUrl': process.env.NODE_ENV === 'development' ? 'resnet101_purify/model.json' : 'https://storage.googleapis.com/retinanetjs/models/resnet101_purify/model.json',
     'modelSize': '220MB',
     'description': 'A resnet101 model trained to detect explicit content. It is generously provided by the CTI community team. Their work is also available at https://pury.fi [content warning].',
     'classes': [
