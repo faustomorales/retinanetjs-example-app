@@ -2,7 +2,7 @@ export const modelConfigs = [
   {
     'displayName': 'Cat/Dog Detector',
     'backboneName': 'mobilenet224',
-    'modelUrl': process.env.NODE_ENV === 'development' ? 'mobilenet224_1_0_oxfordcatdog/model.json' : 'https://storage.googleapis.com/retinanetjs/models/mobilenet224_1_0_oxfordcatdog/model.json',
+    'modelUrl': process.env.NODE_ENV === 'development' ? 'mobilenet224_1_0_oxfordcatdog/model.json' : 'https://github.com/faustomorales/retinanetjs-example-app/releases/download/mobilenet224_1_0_oxfordcatdog/model.json',
     'classes': ['dog', 'cat'],
     'preprocessingMode': 'tf',
     'modelSize': '53MB',
@@ -13,7 +13,7 @@ export const modelConfigs = [
     'displayName': 'COCO',
     'backboneName': 'resnet50',
     'modelSize': '150MB',
-    'modelUrl': process.env.NODE_ENV === 'development' ? 'resnet50_coco_best_v2.1.0/model.json' : 'https://storage.googleapis.com/retinanetjs/models/resnet50_coco_best_v2.1.0/model.json',
+    'modelUrl': process.env.NODE_ENV === 'development' ? 'resnet50_coco_best_v2.1.0/model.json' : 'https://github.com/faustomorales/retinanetjs-example-app/releases/download/resnet50_coco_best_v2.1.0/model.json',
     'description': 'The pre-trained object detector with a ResNet50 backbone provided by the fizyr team. It detects the 80 classes in the COCO dataset.',
     'classes': [
       'person',
@@ -103,7 +103,7 @@ export const modelConfigs = [
   {
     'displayName': 'Purify',
     'backboneName': 'resnet101',
-    'modelUrl': process.env.NODE_ENV === 'development' ? 'resnet101_purify/model.json' : 'https://storage.googleapis.com/retinanetjs/models/resnet101_purify/model.json',
+    'modelUrl': process.env.NODE_ENV === 'development' ? 'resnet101_purify/model.json' : 'https://github.com/faustomorales/retinanetjs-example-app/releases/download/resnet101_purify/model.json',
     'modelSize': '220MB',
     'description': 'A resnet101 model trained to detect explicit content. It is generously provided by the CTI community team. Their work is also available at https://pury.fi [content warning].',
     'classes': [
