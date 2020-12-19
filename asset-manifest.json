@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/retinanetjs-example-app/static/css/main.5863790c.chunk.css",
-    "main.js": "/retinanetjs-example-app/static/js/main.87f5796f.chunk.js",
-    "main.js.map": "/retinanetjs-example-app/static/js/main.87f5796f.chunk.js.map",
+    "main.js": "/retinanetjs-example-app/static/js/main.6a169e44.chunk.js",
+    "main.js.map": "/retinanetjs-example-app/static/js/main.6a169e44.chunk.js.map",
     "runtime~main.js": "/retinanetjs-example-app/static/js/runtime~main.1ac5b0a7.js",
     "runtime~main.js.map": "/retinanetjs-example-app/static/js/runtime~main.1ac5b0a7.js.map",
-    "static/js/2.7c90468e.chunk.js": "/retinanetjs-example-app/static/js/2.7c90468e.chunk.js",
-    "static/js/2.7c90468e.chunk.js.map": "/retinanetjs-example-app/static/js/2.7c90468e.chunk.js.map",
+    "static/js/2.37feaf27.chunk.js": "/retinanetjs-example-app/static/js/2.37feaf27.chunk.js",
+    "static/js/2.37feaf27.chunk.js.map": "/retinanetjs-example-app/static/js/2.37feaf27.chunk.js.map",
     "index.html": "/retinanetjs-example-app/index.html",
-    "precache-manifest.8b2b69edff7bf227bfb0b768c6895fd5.js": "/retinanetjs-example-app/precache-manifest.8b2b69edff7bf227bfb0b768c6895fd5.js",
+    "precache-manifest.45e895cb50505ba96f6199d6042162b3.js": "/retinanetjs-example-app/precache-manifest.45e895cb50505ba96f6199d6042162b3.js",
     "service-worker.js": "/retinanetjs-example-app/service-worker.js",
     "static/css/main.5863790c.chunk.css.map": "/retinanetjs-example-app/static/css/main.5863790c.chunk.css.map"
   }
