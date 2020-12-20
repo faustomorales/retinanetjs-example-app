@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/retinanetjs-example-app/precache-manifest.45e895cb50505ba96f6199d6042162b3.js"
+  "/retinanetjs-example-app/precache-manifest.0f542258ef1fdd5962a690f9d79bd851.js"
 );
 
 self.addEventListener('message', (event) => {
